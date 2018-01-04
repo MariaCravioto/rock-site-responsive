@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+*desktop
+*/
+.container{
+ margin: 0 auto;
+ max-width: 1280px;
+ overflow: hidden;
+ padding: 10px 10px;
+ width: 100%;
+}
+
+/*
+*nav
+*/
+nav{
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+  height: 70px;
+}
+
+nav > ul {
+  margin-left: 800px;
+  list-style: none;
+}
+
+nav > ul > li > a{
+  color: #FFFFFF;
+  display: inline-block;
+  float: left;
+  font-size: 15px;
+  margin-left: 30px;
+  padding-top: 25px;
+  text-decoration: none;
+}
+
+.start{
+  float: left;
+  font-size: 20px;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.start > a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*
+*header
+*/
+header{
+  height: 600px;
+}
+
+.img{
+  background-image: url("../assets/images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 600px;
+  margin-top: 0;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+}
+
+.txt-img{
+  color: #FFFFFF;
+  display: inline-block;
+  filter: none;
+  font-size: 30px;
+  font-weight: 40px;
+  margin-left: 200px;
+  padding: 250px;
+  text-align: center;
+}
+
+/*
+*main
+*/
+.one{
+  height: 500px;
+  width: 100%;
+}
+.one > img{
+  border-radius: 100%;
+  float: right;
+  height: 400px;
+  margin-right: 200px;
+  margin-top: 50px;
+  width: 400px;
+}
+.one > .txt{
+  float: left;
+  font-size: 15px;
+  margin-left: 80px;
+  margin-top: 150px;
+  width: 500px;
+}
+
+.three{
+  height: 500px;
+  width: 100%;
+}
+.three > img{
+  border-radius: 100%;
+  float: right;
+  height: 400px;
+  margin-right: 200px;
+  margin-top: 50px;
+  width: 400px;
+}
+.three > .txt{
+  float: left;
+  font-size: 15px;
+  margin-left: 80px;
+  margin-top: 150px;
+  width: 500px;
+}
+
+.two{
+  height: 500px;
+  width: 100%;
+}
+.two > img{
+  border-radius: 100%;
+  float: left;
+  height: 400px;
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 400px;
+}
+.two > .txt{
+  float: right;
+  font-size: 15px;
+  margin-right: 80px;
+  margin-top: 150px;
+  width: 500px;
+}
+
+.txt > h1{
+  font-size: 30px;
+  width: 300px;
+}
+
+/*
+*footer
+*/
+footer{
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  height: 80px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+/*ipad*/
+@media all and (max-)
