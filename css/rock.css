@@ -1,27 +1,19 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 /*
 *desktop
 */
-.container{
- margin: 0 auto;
- max-width: 1280px;
- overflow: hidden;
- padding: 10px 10px;
- width: 100%;
+.txt > h1 {
+  font-size: 30px;
 }
+
 
 /*
 *nav
 */
-nav{
+nav {
   background-color: #2F4F4F;
   color: #FFFFFF;
-  height: 70px;
+  height: 80px;
 }
 
 nav > ul {
@@ -29,23 +21,22 @@ nav > ul {
   list-style: none;
 }
 
-nav > ul > li > a{
+nav > ul > li > a {
   color: #FFFFFF;
   display: inline-block;
   float: left;
   font-size: 15px;
   margin-left: 30px;
-  padding-top: 25px;
   text-decoration: none;
 }
 
-.start{
+.start {
   float: left;
   font-size: 20px;
   margin-left: 100px;
   padding-top: 20px;
 }
-.start > a{
+.start > a {
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -53,28 +44,29 @@ nav > ul > li > a{
 /*
 *header
 */
-header{
+header {
+  border: 1px solid #000;
   height: 600px;
 }
 
-.img{
+.img {
   background-image: url("../assets/images/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   height: 600px;
   margin-top: 0;
+  text-align: center;
   filter: brightness(50%);
   -webkit-filter: brightness(50%);
 }
 
-.txt-img{
+.txt-img {
   color: #FFFFFF;
   display: inline-block;
   filter: none;
   font-size: 30px;
   font-weight: 40px;
-  margin-left: 200px;
   padding: 250px;
   text-align: center;
 }
@@ -82,83 +74,65 @@ header{
 /*
 *main
 */
-.one{
-  height: 500px;
-  width: 100%;
+.one {
+  height: auto;
 }
 .one > img{
   border-radius: 100%;
   float: right;
   height: 400px;
-  margin-right: 200px;
-  margin-top: 50px;
-  width: 400px;
+  margin-right: 10%;
+  margin-top: 30px;
 }
-.one > .txt{
+.one > .txt {
   float: left;
   font-size: 15px;
-  margin-left: 80px;
-  margin-top: 150px;
-  width: 500px;
+  margin-left: 10%;
+  margin-top: -20%;
 }
 
-.three{
-  height: 500px;
-  width: 100%;
+.three {
+  height: auto;
 }
-.three > img{
+.three > img {
   border-radius: 100%;
   float: right;
   height: 400px;
-  margin-right: 200px;
-  margin-top: 50px;
-  width: 400px;
+  margin-right: 10%;
+  margin-top: -250px;
 }
-.three > .txt{
+.three > .txt {
   float: left;
   font-size: 15px;
-  margin-left: 80px;
+  margin-left: 10%;
   margin-top: 150px;
-  width: 500px;
 }
 
-.two{
-  height: 500px;
-  width: 100%;
+.two {
+  height: auto;
 }
-.two > img{
+.two > img {
   border-radius: 100%;
   float: left;
   height: 400px;
-  margin-left: 200px;
-  margin-top: 50px;
-  width: 400px;
+  margin-left: 100px;
+  margin-top: 30px;
 }
-.two > .txt{
+.two > .txt {
   float: right;
   font-size: 15px;
-  margin-right: 80px;
   margin-top: 150px;
-  width: 500px;
 }
 
-.txt > h1{
-  font-size: 30px;
-  width: 300px;
-}
 
 /*
 *footer
 */
-footer{
+footer {
   background-color: #2F4F4F;
   color: #FFFFFF;
   text-align: center;
   font-size: 15px;
   height: 80px;
   padding-top: 30px;
-  width: 100%;
 }
-
-/*ipad*/
-@media all and (max-)
